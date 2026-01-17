@@ -94,6 +94,17 @@ li {
     }
 }
 
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  .todo-container {
+    width: 95%;
+    padding: 10px;
+  }
+}
+
+
 li span {
     flex: 1;
 }
@@ -124,3 +135,4 @@ input[type="checkbox"] {
 .delete-btn:hover {
     background: #ff4b4b;
 }
+
